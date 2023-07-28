@@ -1,0 +1,57 @@
+/* CSS estilo4.css */
+
+/* Importar a fonte Barlow do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap');
+
+/* Definir estilos para o corpo da página */
+body {
+  font-family: 'Barlow', Arial, sans-serif;
+  background-color: #f6adb9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir estilos para o cabeçalho */
+h1 {
+  text-align: center;
+  color: #070101;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Definir estilos para a lista de projetos */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  background-color: #ed98cd;
+  color: #f5d0ed;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+ul li a:hover {
+  background-color: #fdcbcb;
+}
+
+/* Definir estilos para o link de voltar */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #080708;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

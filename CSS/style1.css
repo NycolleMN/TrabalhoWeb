@@ -1,0 +1,75 @@
+/* Import da fonte Barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Barlow', Arial, sans-serif; /* Fonte Barlow */
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: justify; /* Texto justificado */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos do cabeçalho */
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center; /* Centralizar o título */
+}
+
+/* Estilos dos parágrafos */
+p {
+  font-size: 16px;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* Estilos dos links */
+.links {
+  list-style-type: none; /* Remover marcadores de pontos */
+  padding: 0;
+  margin-top: 20px;
+  display: flex; /* Exibir os links em uma linha */
+  justify-content: center; /* Centralizar os links horizontalmente */
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.links li:last-child {
+  margin-right: 0; /* Remover margem direita do último item */
+}
+
+.links li a {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #555;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.links li a:hover {
+  background-color: #333;
+}

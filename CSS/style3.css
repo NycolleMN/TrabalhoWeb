@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+/* Estilos para o corpo do documento */
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para a seção de formação acadêmica */
+.formation {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formation h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formation h3 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.formation ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.formation li {
+  margin-bottom: 5px;
+}
